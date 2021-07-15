@@ -1,0 +1,417 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: sans-serif !important;
+}
+
+.container{
+    position:relative;
+    width: 398px;
+    border: 1px solid #ccc;
+    opacity: 1;
+    height: 100%;
+    top:50px;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+.b_b{
+    margin-left: 8px;
+}
+.b_b a{
+    color: #0175a2;
+    font-size: 14px;
+    text-decoration:none ;
+}
+
+.b:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    background-image: url(cisco_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 113px;
+    height: 60px;
+    filter:saturate(4);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+}
+
+.line hr{
+    background-color: #ccc;
+    opacity: 0.6;
+}
+
+.container_2{
+    width:314px;
+  
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.container_2 h1{
+    font-size:24px;
+    color: #5E5E5E;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.eml label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #5E5E5E;
+    margin-left: 1px;
+    
+}
+
+.eml input[type="email"]{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    font-size:14px;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 30px;
+}
+
+.passwd label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #5E5E5E;
+    margin-left: 1px;
+    
+}
+.passwd input[type="password"]{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    font-size:14px;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+input:focus, textarea:focus,select:focus
+  {
+   border: 1.5px solid #0175a2  !important;
+   box-shadow: 0px  0px 3px 2px #1ad6ff !important;
+   outline: none !important; 
+  }
+  input[type="email"]:hover{
+    border-color: grey;
+  }
+
+  input[type="password"]:hover{
+    border-color: grey;
+  }
+
+  .nxt{
+      margin-top:55px;
+      margin-left: 2px;
+      
+  }
+
+  .nxt button{
+      background-color: #0175a2;
+      width: 306px;
+      height: 50px;
+      border-radius: 50px;
+      border: 1px solid #0175a2;
+      color: white;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      
+  }
+
+  
+  .l_i{
+    margin-top:55px;
+    margin-left: 2px;
+    
+}
+
+.l_i button{
+    background-color: #0175a2;
+    width: 310px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #0175a2;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    
+}
+  button:focus ,select:focus
+  {
+   border: 1.5px solid #0175a2  !important;
+   box-shadow: 0px  0px 3px 3px #1ad6ff !important;
+   outline: none !important; 
+  }
+
+  .nxt a{
+      text-decoration: none;
+      color: white;
+  }
+
+  .l_i a{
+    text-decoration: none;
+    color: white;
+}
+.lnks{
+    margin-top: 25px;
+
+}
+
+
+.lnks .u_a{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.lnks .u_a a:hover{
+    text-decoration: underline;
+    color: rgb(51, 11, 51);
+}
+
+.lnks a{
+    color: #014b68;
+    text-decoration: none;
+    font-weight:lighter ;
+}
+
+.lnks .f_e{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.lnks .f_e a:hover{
+    text-decoration: underline;
+    color: rgb(51, 11, 51);
+}
+
+.lnks .hlp{
+    padding: 10px;
+    font-size: 14px;
+}
+.lnks .hlp a:hover{
+    text-decoration: underline;
+    color: rgb(51, 11, 51);
+}
+
+.line2{
+    background-color: #ccc;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+
+.d_a {
+    margin-top: 30px;
+    color: #5E5E5E;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+.d_a p{
+    color: #5E5E5E;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.d_a a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0175a2;
+}
+
+.d_a a:hover{
+    text-decoration: underline;
+    color: rgb(51, 11, 51);
+}
+
+.ftr{
+    width: 440px;
+    height: 31px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.ftr ul{
+    list-style: none;
+    display: inline-block;    
+}
+
+.ftr a{
+    text-decoration: none;
+    color: #0175a2;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*responsivnes*/
+@media  (max-width:320px) {
+    .container{
+        width: 316px;
+
+    }
+
+    
+    .container_2{
+        width:276px;
+    }
+    
+    .eml input[type="email"]{
+        width: 265px;
+    }
+    
+    .passwd input[type="password"]{
+        width: 265px;
+    }
+
+    .nxt button{
+          width: 272px;
+      }
+    
+      
+    .l_i button{
+        width: 272px;   
+    }
+
+    
+    .ftr{
+        width: 320px;
+    }
+    
+}
+
+
+
+@media  (min-width:321px) and (max-width:375px) {
+    .container{
+        width: 375px;
+    }
+
+
+    
+    .container_2{
+        width:276px;
+    }
+    
+    .eml input[type="email"]{
+        width: 265px;
+    }
+    
+    .passwd input[type="password"]{
+        width: 265px;
+    }
+
+    .nxt button{
+          width: 272px;
+      }
+    
+      
+    .l_i button{
+        width: 272px;   
+    }
+
+    
+    .ftr{
+        width: 375px;
+    }
+    
+}
+
+@media  (min-width:376px) and (max-width:425px) {
+    .container{
+        width: 425px;
+    }
+
+
+    
+    .container_2{
+        width:276px;
+    }
+    
+    .eml input[type="email"]{
+        width: 265px;
+    }
+    
+    .passwd input[type="password"]{
+        width: 265px;
+    }
+
+    .nxt button{
+          width: 272px;
+      }
+    
+      
+    .l_i button{
+        width: 272px;   
+    }
+
+    
+    .ftr{
+        width: 425px;
+        font-size: 13px;
+    }
+    
+}
+
+@media  (min-width:426px) and (max-width:768px) {
+    .container{
+        width: 400px;
+    }
+    
+    .container_2{
+        width:314px;
+    
+    }
+    
+    .eml input[type="email"]{
+        width: 312px;
+    }
+    
+    .passwd input[type="password"]{
+        width: 312px;
+    }
+
+    .nxt button{
+          width: 310px;
+      }
+    
+      
+    .l_i button{
+        width: 272px;   
+    }
+
+    
+    .ftr{
+        width: 768px;
+    }
+    
+}
